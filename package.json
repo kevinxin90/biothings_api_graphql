@@ -1,0 +1,31 @@
+{
+  "name": "biothings_api_graphql",
+  "version": "1.0.0",
+  "description": "graphql endpoint for biothings api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinxin90/biothings_api_graphql.git"
+  },
+  "keywords": [
+    "graphql",
+    "biothings",
+    "api"
+  ],
+  "author": "jiwen xin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinxin90/biothings_api_graphql/issues"
+  },
+  "homepage": "https://github.com/kevinxin90/biothings_api_graphql#readme",
+  "dependencies": {
+    "apollo-server": "^2.9.16",
+    "axios": "^0.19.2",
+    "biomedical_id_resolver": "^0.1.0",
+    "dataloader": "^2.0.0",
+    "lodash": "^4.17.15"
+  }
+}
